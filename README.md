@@ -51,7 +51,7 @@ AnimateText接收两个参数, 例如: new AnimateText(element, options)
 
 | 参数 | 类型 | 是否必填 | 描述 |
 | :---: |  :--- |  :---: |  :--- |
-| element | String or Object | 是 | 可以是选择器或者dom节点对象(请保证这个节点内只有文本而没有其它节点) |
+| element | String or Object | 是 | 可以是选择器或者dom节点对象(请保证这个节点内只有文本而没有其它节点)，多个元素暂时只有第一个有效(将提交询问作者) |
 | options | String or Object | 否 | 如果第二个参数是字符串, 则当作动画时间处理, 如果有其他参数, 以对象格式传递, 具体每个属性的描述请看下方的 options说明 |
 
 <br>
